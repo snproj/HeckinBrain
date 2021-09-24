@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HeckinBrain
+        </title>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="resources/HeckinBrain.css">
+
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <article>
+            <table>
+                <tr>
+                    <td>
+                        <textarea placeholder="Insert plaintext here" class="textarea_plain" id="plaintext_string"></textarea>
+                    </td>
+                    <td>
+                        <textarea placeholder="Insert ciphertext here" class="textarea_cipher" id="ciphertext_string"></textarea>
+                    </td>
+                    <td>
+                        <div id="control_panel">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div id="control_panel_component">
+                                            REGISTER: <span id="register"></span>
+                                            <div class="myProgress" id="register_progress">
+                                                <div class="myBar" id="register_bar"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div id="control_panel_component">
+                                            POINTER: <span id="ptr"></span>
+                                            <div class="myProgress" id="ptr_progress">
+                                                <div class="myBar" id="ptr_bar"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="button1" id="plaintext_button">CONVERT PLAINTEXT</button>
+                    </td>
+                    <td>
+                        <button class="button1" id="ciphertext_button">CONVERT CIPHERTEXT</button>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <textarea placeholder="Insert plaintext here" class="textarea_plain" id="plaintext_string2"></textarea>
+                    </td>
+                    <td>
+                        <textarea placeholder="Insert ciphertext here" class="textarea_cipher" id="ciphertext_string2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="button1" id="plaintext_button2">SLOW CONVERT PLAINTEXT</button>
+                    </td>
+                    <td>
+                        <button class="button1" id="ciphertext_button2">SLOW CONVERT CIPHERTEXT</button>
+                    </td>
+                </tr>
+            </table>
+
+        </article>
+
+        <footer>
+
+        </footer>
+
+
+
+
+        <script src="resources/Libraries/jquery_comp.js"></script>
+        <script src="resources/Libraries/math_uncompressed.js"></script>
+        <script src="resources/HeckinBrain.min.js"></script>
+        <script src="resources/HeckinBrain2.min.js"></script>
+
+    </body>
+</html>
